@@ -54,11 +54,7 @@
          "responses": ["Loading pharmacy details"],
          "context": [""]
         },
-        {"tag": "hospital_search",
-         "patterns": ["Lookup for hospital", "Searching for hospital to transfer patient", "I want to search hospital data", "Hospital lookup for patient", "Looking up hospital details" ],
-         "responses": ["Please provide hospital name or location"],
-         "context": ["search_hospital_by_params"]
-        },
+       
         {"tag": "search_hospital_by_params",
          "patterns": [],
          "responses": ["Please provide hospital type"],
